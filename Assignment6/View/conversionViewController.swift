@@ -41,16 +41,16 @@ class conversionViewController: UIViewController {
         pesoLabel.isHidden = !showPeso
         yuanLabel.isHidden = !showYuan
 
-        if let euro = euroValue {
+        if showEuro {
             euroLabel.text = "Euro: \(String(format: "%.0f", euroValue!))"
         }
-        if let yen = yenValue {
+        if showYen {
             yenLabel.text = "Yen: \(String(format: "%.0f", yenValue!))"
         }
-        if let peso = pesoValue {
+        if showPeso {
             pesoLabel.text = "Peso: \(String(format: "%.0f", pesoValue!))"
         }
-        if let yuan = yuanValue {
+        if showYuan {
             yuanLabel.text = "Yuan: \(String(format: "%.0f", yuanValue!))"
         }
     }
