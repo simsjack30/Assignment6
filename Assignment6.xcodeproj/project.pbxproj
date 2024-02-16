@@ -68,7 +68,6 @@
 				F01DF6872B7FF36300DAD1C5 /* Assets.xcassets */,
 				F01DF6892B7FF36300DAD1C5 /* LaunchScreen.storyboard */,
 				F01DF68C2B7FF36300DAD1C5 /* Info.plist */,
-				F01DF6942B80032600DAD1C5 /* conversionViewController.swift */,
 			);
 			path = Assignment6;
 			sourceTree = "<group>";
@@ -77,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				F01DF6822B7FF35F00DAD1C5 /* ViewController.swift */,
+				F01DF6942B80032600DAD1C5 /* conversionViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
